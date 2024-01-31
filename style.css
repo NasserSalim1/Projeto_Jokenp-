@@ -1,0 +1,31 @@
+#principal{
+    border: 1px solid red;
+}
+
+#placar{
+    border: 1px solid blue;
+}
+
+#jogador{
+    background-color: red;
+    float: left;
+    width: 40%;
+    height: 300px;
+}
+
+#versus{
+    background-color: blue;
+    float: left;
+    width: 20%;
+}
+
+#computador{
+    background-color: green;
+    float: left;
+    width: 40%;
+}
+
+#mensagem{
+    clear: both;
+    border: 1px solid green;
+}
