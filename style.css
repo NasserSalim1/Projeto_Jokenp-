@@ -4,28 +4,27 @@
 
 #placar{
     border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jogador, #computador{
+    flex-grow: 1;
 }
 
 #jogador{
     background-color: red;
-    float: left;
-    width: 40%;
-    height: 300px;
 }
 
 #versus{
     background-color: blue;
-    float: left;
-    width: 20%;
 }
 
 #computador{
     background-color: green;
-    float: left;
-    width: 40%;
 }
 
 #mensagem{
-    clear: both;
     border: 1px solid green;
 }
