@@ -4,10 +4,6 @@
     cursor: default;
 }
 
-#principal{
-
-}
-
 #titulo{
     text-align: center;
     color: #2d3436;
@@ -71,6 +67,7 @@
 }
 
 #jogador #jogador-escolha img:hover, #computador #computador-escolha img:hover{
+    cursor: pointer;
     opacity: 1;
 }
 
