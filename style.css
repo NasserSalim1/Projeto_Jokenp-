@@ -1,97 +1,118 @@
 * {
-    font-family: Helvetica Neue, Halvetica, Arial;
+    font-family: Helvetica Neue, Helvetica, Arial;
     font-weight: 400;
     cursor: default;
 }
 
-#titulo{
-    text-align: center;
-    color: #2d3436;
+body {
+    background-color: #f8f8f8;
 }
 
-#placar{
+#titulo {
+    font-size: 40px;
+    color: #273c75;
+    text-align: center;
+}
+
+#placar {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#jogador, #computador{
+#jogador,
+#computador {
     position: relative;
     flex-grow: 1;
-    color: #fff;
-    border-radius: 20px;
+    border-radius: 5px;
+    width: 200px;
     padding: 20px;
+    color: #fff;
 }
 
-#jogador h2, #computador h2{
+#jogador {
+    background-color: #ff7675;
+}
+
+#computador {
+    background-color: #74b9ff;
+}
+
+#versus {
+    width: 200px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 300;
+}
+
+#jogador-nome,
+#computador-nome {
     margin: 0;
     padding: 0;
 }
 
-#jogador{
-    background-color: #ff7675;
+#jogador-nome {
+    text-align: left;
 }
 
-#jogador-nome, #computador-nome{
-    font-size: 24px;
-}
-
-#jogadorpontos, #computadorpontos{
-    position: absolute;
-    top: 8px;
-    font-size: 52px;
-}
-
-#jogadorpontos{
-    right: 20px;
-}
-
-#computador-nome{
+#computador-nome {
     text-align: right;
 }
 
-#jogador #jogador-escolha, #computador #computador-escolha{
+#jogador-pontos,
+#computador-pontos {
+    position: absolute;
+    top: 8px;
+    font-size: 72px;
+}
+
+#jogador-pontos {
+    right: 20px;
+}
+
+#computador-pontos {
+    left: 20px;
+}
+
+#jogador-escolha,
+#computador-escolha {
     list-style: none;
     text-align: center;
     margin: 30px 0 0;
     padding: 0;
 }
 
-#jogador #jogador-escolha li, #computador #computador-escolha li{
-    display: inline-block;
+#jogador-escolha li,
+#computador-escolha li {
+    display: inline;
     padding: 0 15px;
 }
 
-#jogador #jogador-escolha img, #computador #computador-escolha img{
+#jogador-escolha a,
+#computador-escolha a {
     opacity: .2;
+    padding: 5px;
 }
 
-#jogador #jogador-escolha img:hover, #computador #computador-escolha img:hover{
-    cursor: pointer;
+#jogador-escolha a:hover,
+#jogador-escolha a.selecionado,
+#computador-escolha a.selecionado {
     opacity: 1;
 }
 
-#jogador #jogador-escolha img, #computador #computador-escolha img{
-    transition: 0.3s;
+#jogador-escolha img,
+#computador-escolha img {
+    cursor: pointer;
     max-width: 80px;
 }
 
-#computador{
-    background-color: #3498db;
-}
-
-#versus{
-    font-size: 80px;
-    padding: 0 40px;
-}
-
-
-#mensagem{
-    background-color: #636e72;
-    border-radius: 20px;
-    font-size: 24px;
+#mensagem {
+    border-radius: 5px;
+    background-color: #7f8fa6;
+    font-size: 25px;
     color: #fff;
     text-align: center;
-    margin: 20px 0;
+    font-weight: 400;
+    margin-top: 20px;
     padding: 20px;
 }
