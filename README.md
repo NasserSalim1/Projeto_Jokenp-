@@ -54,3 +54,7 @@ O arquivo JavaScript adiciona interatividade ao jogo, controlando as ações do 
   - Solicita ao jogador seu nome.
   - Define o nome do jogador na interface.
   - Exibe uma mensagem de boas-vindas.
+
+Segue o link para acessar o projeto:
+
+**https://nassersalim1.github.io/Projeto_Jokenp-/**
